@@ -9,7 +9,7 @@
 
     <title>Jambur</title>
     <!-- bootstra -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href='css/bootstrap.css'>
 
     <!-- lightSlider -->
     <link rel="stylesheet" href="css/lightSlider.css">
@@ -89,6 +89,7 @@
                   <h2>Apartamenty</h2>
               </div>
           </div>
+          <hr />
           <div class="row">
           <!-- lightSlider -->
           <div class="lightSlider">
@@ -98,9 +99,7 @@
                       <div class="caption">
                         <div class = 'caption-content'>
                           <h3>Apartament 1</h3>
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                          </p>
+                          <span class = 'fa fa-home fa-5x'></span>
                         </div>
                       </div>
                       <img src="img/apartment.jpg" alt="..." class = 'img-responsive'>
@@ -111,9 +110,7 @@
                       <div class="caption">
                         <div class = 'caption-content'>
                           <h3>Apartament 2</h3>
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                          </p>
+                          <span class = 'fa fa-home fa-5x'></span>
                         </div>
                       </div>
                       <img src="img/apartment.jpg" alt="..." class = 'img-responsive'>
@@ -124,9 +121,7 @@
                       <div class="caption">
                         <div class = 'caption-content'>
                           <h3>Apartament 3</h3>
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                          </p>
+                          <span class = 'fa fa-home fa-5x'></span>
                         </div>
                       </div>
                       <img src="img/apartment.jpg" alt="..." class = 'img-responsive'>
@@ -146,6 +141,7 @@
                     <h2 id='h2_about'>O nas</h2>
                 </div>
             </div>
+            <hr />
             <div class="row">
                 <div class="col-md-6">
                     <p>
@@ -169,28 +165,22 @@
                     <h2>Kontakt</h2>
                 </div>
             </div>
-            <div class="row">
-              <div class="col-lg-offset-2 col-lg-8">
-                <form id="contactForm">
-                  <div class="row control-group">
-                      <div class="form-group col-xs-12 floating-label-form-group controls">
-                          <p class="form-control">Adres:</p>
-                          <p class="pull-right">Zakopane ul. Lorem 12</p>
-                      </div>
-                    </div>
-                  <div class="row control-group">
-                    <div class="form-group col-xs-12 floating-label-form-group controls">
-                        <p class="form-control">Tel:</p>
-                        <p class="pull-right">555-555-555</p>
-                    </div>
-                    </div>
-                    <div class="row control-group">
-                      <div class="form-group col-xs-12 floating-label-form-group controls">
-                          <p class="form-control">E-mail</p>
-                          <p class="pull-right">loremipsum@gmail.com</p>
-                      </div>
-                    </div>
-                </form>
+            <hr />
+            <div class="row" id = 'contact_inf'>
+              <div class="col-md-offset-2 col-md-8 ">
+                <div class = 'col-md-4 text-center'>
+                  <span class="fa fa-thumb-tack fa-3x" aria-hidden="true"></span>
+                  <p>Zakopane</p>
+                  <p>ul. Lorem 12 </p>
+                </div>
+                <div class = 'col-md-4 text-center'>
+                  <span class="fa fa-envelope fa-3x" id ='fa_email' aria-hidden="true"></span>
+                  <p>loremipsum@gmail.com</p>
+                </div>
+                <div class = 'col-md-4 text-center'>
+                  <span class="fa fa-phone-square fa-3x" id ='fa_phone'aria-hidden="true"></span>
+                  <p>tel. 555-555-555</p>
+                </div>
               </div>
             </div>
           </div>
