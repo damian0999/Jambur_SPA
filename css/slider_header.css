@@ -4,11 +4,10 @@ body {
 }
 
 body {
-    padding-top: 50px; 
 }
 
 header.carousel {
-    height: 50%;
+    height: 90%;
 }
 
 header.carousel .item,
@@ -22,6 +21,10 @@ header.carousel .fill {
     height: 100%;
     background-position: center;
     background-size: cover;
+}
+
+#arrow_header{
+    font-size: 68px;
 }
 
 @media(max-width:767px) {
