@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$(window).scroll(function(e) {
      currentposition = $(document).scrollTop();//aktualna pozycja względem początku          
      bannerheight = $("#navigation").height();//wysokość elementu, po którym menu ma stać się białe
-      if(currentposition>bannerheight)
+      if(currentposition>690)
        {         
            $("#navigation").addClass("navbar_scroll");
        }
@@ -13,12 +13,12 @@ $(document).ready(function(){
   
   $('#arrow_header').hover(function(){
     $('#img_header').attr('src', 'img/gory.jpg')
-    $('#navigation').animate({
+    $('#navigation').stop().animate({
       opacity: 0
     }, 1000);
   }, function(){
     $('#img_header').attr('src', 'img/gory_szary.jpg');
-      $('#navigation').animate({
+      $('#navigation').stop().animate({
         opacity: .7
       }, 1000);
   });
@@ -31,11 +31,6 @@ $(document).ready(function(){
   	$(this).stop().animate({
   		fontSize: '68px'
   	}, 700);
-  });
-
-  $("#lightSlider").lightSlider({
-    loop:true,
-    controls: false
   });
 
   $('.carousel').carousel({
