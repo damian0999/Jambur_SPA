@@ -67,15 +67,23 @@ h6 {
     }
 }
 
+.navbar_scroll{
+    background-color: gray !important;
+    opacity: 1 !important;
+}
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     background-color: gray;
+    opacity: .7;
 }
 
 .navbar a:focus {
     outline: 0;
+}
+.nav > li > a:hover{
+    color: #FFCC33 !important;
 }
 
 .navbar .navbar-nav {
@@ -84,6 +92,9 @@ h6 {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
+}
+#bs-example-navbar-collapse-1{
+    padding-right: 20px;
 }
 
 #h2_about{

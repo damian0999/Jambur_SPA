@@ -29,13 +29,14 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<style>
+</style>
 </head>
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top" id = 'navigation'>
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -47,20 +48,19 @@
 
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#apartment">Apartamenty</a>
+                        <a href="#apartment" id='text'>Apartamenty</a>
+                    </li>
+                    <li class="page-scroll" >
+                        <a href="#about" id='text'>O nas</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">O nas</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Kontakt</a>
+                        <a href="#contact" id='text'>Kontakt</a>
                     </li>
                 </ul>
             </div>
@@ -412,8 +412,6 @@
 
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
