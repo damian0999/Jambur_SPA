@@ -5,10 +5,28 @@ $(document).ready(function(){
      bannerheight = $("#navigation").height();//wysokość elementu, po którym menu ma stać się białe
       if(currentposition>690)
        {         
-           $("#navigation").addClass("navbar_scroll");
+        $("#navigation").addClass("navbar_scroll");
+
+        $('.page-scroll').stop().animate({
+          bottom: '28px'
+        }, 150);
+
+        $('.jambur_nav').stop().animate({
+          opacity: 1
+        }, 100);
        }
        else
-          $("#navigation").removeClass("navbar_scroll");
+       {
+        $("#navigation").removeClass("navbar_scroll");
+
+        $('.page-scroll').stop().animate({
+          bottom: '0px'
+        }, 150);
+
+        $('.jambur_nav').stop().animate({
+          opacity: 0
+        }, 100);
+       }
   });
   
   $('#arrow_header').hover(function(){

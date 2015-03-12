@@ -29,6 +29,6 @@ header.carousel .fill {
 
 @media(max-width:767px) {
     header.carousel .carousel {
-        height: 70%;
+        height: 50%;
     }
 }

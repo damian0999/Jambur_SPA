@@ -67,10 +67,6 @@ h6 {
     }
 }
 
-.navbar_scroll{
-    background-color: gray !important;
-    opacity: 1 !important;
-}
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -82,9 +78,6 @@ h6 {
 .navbar a:focus {
     outline: 0;
 }
-.nav > li > a:hover{
-    color: #FFCC33 !important;
-}
 
 .navbar .navbar-nav {
     letter-spacing: 2px;
@@ -95,6 +88,15 @@ h6 {
 }
 #bs-example-navbar-collapse-1{
     padding-right: 20px;
+}
+
+.jambur_nav{
+    opacity: 0;
+}
+
+.navbar_scroll{
+    opacity: 1;
+    height: 25px;
 }
 
 #h2_about{
