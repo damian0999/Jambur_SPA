@@ -162,6 +162,10 @@ section.success {
     color: white;
 }
 
+.apartment-item:hover{
+    padding-top: 40px;
+}
+
 #apartment * {
     z-index: 2;
 }
@@ -186,7 +190,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #FFCC33;
     background: #fff;
 }
 
@@ -214,7 +218,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 20px;
-    background-color: #2c3e50;
+    background-color: gray;
 }
 
 footer .footer-col {
@@ -223,7 +227,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 15px 0;
-    background-color: #233140;
+    background-color: #606060;
 }
 
 .btn-social {
