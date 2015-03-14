@@ -100,6 +100,12 @@ h6 {
     height: 25px;
 }
 
+.hr_shadow{
+    border-style: solid;
+    border-color: none;
+    box-shadow: 10px 10px 25px 5px #888888;
+}
+
 #h2_about{
     padding-top: 25px;
     color: #2c3e50;
@@ -141,7 +147,7 @@ section.success {
     text-align: center;
     color: black;
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0px 15px;
 }
 
 #apartment .apartment-item h3{
@@ -152,7 +158,7 @@ section.success {
 }
 
 #apartment .apartment-item .apartment-link {
-    display: inline-block;
+    display: block;
     margin: 0 auto;
     max-width: 400px;
 }
@@ -163,7 +169,7 @@ section.success {
 }
 
 .apartment-item:hover{
-    padding-top: 40px;
+    box-shadow: 10px 10px 25px 5px #888888;
 }
 
 #apartment * {
