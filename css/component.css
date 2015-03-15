@@ -1,80 +1,56 @@
 .cbp-af-header {
-	position: fixed;
-	top: 0;
-	left: 0;
 	width: 100%;
 	background: gray;
-	z-index: 10000;
-	height: 230px;
+	height: 100px;
 	overflow: hidden;
-	opacity: 0.7;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
 	transition: height 0.3s;
 }
 
 .cbp-af-header .cbp-af-inner {
-	width: 90%;
-	max-width: 69em;
 	margin: 0 auto;
-	padding: 0 1.875em;
 }
 
-.cbp-af-header h1,
+.cbp-af-header a h1,
 .cbp-af-header nav {
 	display: inline-block;
 	position: relative;
 }
 
  /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
-.cbp-af-header h1,
-.cbp-af-header nav a {
+.cbp-af-header a h1{
 	line-height: 230px;
 }
 
-.cbp-af-header h1 {
+.cbp-af-header a h1 {
 	text-transform: uppercase;
-	color: #333;
+	color: #FFCC33;
 	letter-spacing: 4px;
-	font-size: 4em;
 	margin: 0;
-	float: left;
-}
-
-.cbp-af-header nav {
-	float: right;
-}
-
-.cbp-af-header nav a {
-	color: #aaa;
-	font-weight: 700;
-	margin: 0 0 0 20px;
-	font-size: 1.4em;
-}
-
-.cbp-af-header nav a:hover {
-	color: #333;
 }
 
 /* Transitions and class for reduced height */
 .cbp-af-header h1,
-.cbp-af-header nav a {
+.cbp-af-header nav li a {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
 .cbp-af-header.cbp-af-header-shrink {
-	height: 90px;
+	opacity: 1;
+	background-color: gray;
+	height: 80px;
 }
 
 .cbp-af-header.cbp-af-header-shrink h1,
-.cbp-af-header.cbp-af-header-shrink nav a {
-	line-height: 90px;
+.cbp-af-header.cbp-af-header-shrink nav  a {
+	line-height: 50px;
 }
 
 .cbp-af-header.cbp-af-header-shrink h1 {
-	font-size: 2em;
+	font-size: 56px;
 }
 
 /* Example Media Queries */
