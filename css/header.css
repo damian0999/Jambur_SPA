@@ -3,9 +3,6 @@ body {
     height: 100%;
 }
 
-body {
-}
-
 header.carousel {
     height: 90%;
     margin-bottom: 100px;
@@ -29,7 +26,8 @@ header.carousel .fill {
 }
 
 @media(max-width:767px) {
-    header.carousel .carousel {
+    header.carousel {
         height: 50%;
+        margin-bottom: 30px;
     }
 }
