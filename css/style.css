@@ -13,49 +13,6 @@ h6 {
   font-weight: 700;
 }
 
-/* navigation */
-
-.navbar {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  background-color: gray;
-  opacity: .7;
-  border-style: none;
-}
-
-.navbar a:focus {
-  outline: 0;
-}
-
-.navbar .navbar-nav {
-  font-size: 20px;
-  letter-spacing: 2px;
-}
-
-.navbar .navbar-nav li a:focus {
-  outline: 0;
-}
-
-.navbar-nav li a{
-  padding-top: 35px;
-  color: white !important;
-}
-
-.navbar-nav li a:hover{
-  color: #FFCC33 !important;
-}
-
-.navbar-brand{
-  padding-top: 35px;
-  font-size: 46px;
-  color: #FFCC33 !important;
-}
-
-.icon-bar{
-  background-color: #FFCC33 !important;
-}
-
 @media(max-width:768px) {
   .navbar-brand {
     padding-top: 10px;
@@ -137,11 +94,6 @@ header h2{
 
 .apartment-item:hover{
   box-shadow: 10px 10px 25px 5px #888888;
-}
-
-.navbar-default .navbar-nav > .active > a{
-  color: #FFCC33 !important;
-  border-bottom:solid 5px !important;
 }
 
 /* about */
@@ -355,6 +307,7 @@ footer .footer-below {
   display: none;
   opacity: 0;
 }
+
 
 
 

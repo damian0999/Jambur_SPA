@@ -1,0 +1,125 @@
+.cbp-af-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0.7;
+	background: gray;
+	z-index: 10;
+	height: 150px;
+	border: none;
+	overflow: hidden;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	-webkit-transition: height 0.6s;
+	-moz-transition: height 0.6s;
+	transition: height 0.6s;
+}
+
+.cbp-af-header .cbp-af-inner {
+	padding-right: 40px;
+}
+
+.cbp-af-header h1,
+.cbp-af-header nav {
+	display: inline-block;
+	position: relative;
+}
+
+ /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
+.cbp-af-header a,
+.cbp-af-header li a {
+	line-height: 130px;
+}
+
+.cbp-af-header .navbar-brand{
+	text-transform: uppercase;
+	color: #FFCC33;
+	opacity: 0;
+	letter-spacing: 4px;
+	margin: 0;
+}
+
+.cbp-af-header li a {
+	color: white !important;
+	font-size: 20px;
+  	letter-spacing: 2px;
+}
+
+.navbar-nav li a:hover {
+	color: #FFCC33 !important;
+}
+
+.cbp-af-header .navbar-brand:hover{
+	color: #FFCC33;
+}
+
+.navbar-default .navbar-nav > .active > a{
+  color: #FFCC33 !important;
+  text-decoration: underline;
+}
+
+/* Transitions and class for reduced height */
+.cbp-af-header a,
+.cbp-af-header li a {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.cbp-af-header.cbp-af-header-shrink {
+	opacity: 1;
+	height: 70px;
+}
+
+.cbp-af-header.cbp-af-header-shrink a,
+.cbp-af-header.cbp-af-header-shrink li a {
+	line-height: 50px;
+}
+
+.cbp-af-header.cbp-af-header-shrink .navbar-brand {
+	opacity: 1;
+	font-size: 48px;
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 768px) {
+	
+	.cbp-af-header{
+		height: 50px;
+	}
+	
+	.cbp-af-header.cbp-af-inner {
+		width: 100%;
+	}
+
+	.cbp-af-header a,
+	.cbp-af-header li a {
+		line-height: 10px;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink h1,
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		line-height: 45px;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink h1 {
+		font-size: 2em;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 32.25em) {
+	.cbp-af-header nav a {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 24em) {
+	.cbp-af-header nav a,
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		line-height: 1;
+	}
+}
