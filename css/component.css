@@ -25,7 +25,6 @@
 	position: relative;
 }
 
- /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
 .cbp-af-header a,
 .cbp-af-header li a {
 	line-height: 130px;
@@ -42,7 +41,7 @@
 .cbp-af-header li a {
 	color: white !important;
 	font-size: 20px;
-  	letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 .navbar-nav li a:hover {
@@ -81,45 +80,31 @@
 	font-size: 48px;
 }
 
-/* Example Media Queries */
-@media screen and (max-width: 768px) {
+@media(max-width: 768px) {
 	
 	.cbp-af-header{
-		height: 50px;
+		opacity: 0;
+		height: 70px;
+		-webkit-transition: all 0.6s;
+		-moz-transition: all 0.6s;
+		transition: all 0.6s;
 	}
 	
 	.cbp-af-header.cbp-af-inner {
 		width: 100%;
 	}
 
-	.cbp-af-header a,
-	.cbp-af-header li a {
-		line-height: 10px;
+	.cbp-af-header.navbar-brand{
+		line-height: 60px !important;
 	}
 
-	.cbp-af-header.cbp-af-header-shrink h1,
-	.cbp-af-header.cbp-af-header-shrink nav a {
+	.cbp-af-header.cbp-af-header-shrink {
+		opacity: 1;
+		height: 70px;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink.navbar-brand{
 		line-height: 45px;
-	}
-
-	.cbp-af-header.cbp-af-header-shrink h1 {
-		font-size: 2em;
-	}
-
-	.cbp-af-header.cbp-af-header-shrink nav a {
-		font-size: 1em;
-	}
-}
-
-@media screen and (max-width: 32.25em) {
-	.cbp-af-header nav a {
-		font-size: 1em;
-	}
-}
-
-@media screen and (max-width: 24em) {
-	.cbp-af-header nav a,
-	.cbp-af-header.cbp-af-header-shrink nav a {
-		line-height: 1;
+		font-size: 20px;
 	}
 }

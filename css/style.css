@@ -13,16 +13,6 @@ h6 {
   font-weight: 700;
 }
 
-@media(max-width:768px) {
-  .navbar-brand {
-    padding-top: 10px;
-    font-size: 40px;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
-  }
-}
-
 /* header */
 /* more css on the file header.css */
 
