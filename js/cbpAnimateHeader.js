@@ -17,7 +17,7 @@ var cbpAnimatedHeader = (function() {
 
 	function scrollPage() {
 		var sy = scrollY();
-		if ( sy >= changeHeaderOn ) {
+		if ( sy >= changeHeaderOn - 100) {
 			classie.add( header, 'cbp-af-header-shrink' );
 		}
 		else {

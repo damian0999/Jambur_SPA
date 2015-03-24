@@ -4,8 +4,8 @@ body {
 }
 
 header.carousel {
-    height: 90%;
-    margin-bottom: 100px;
+    height: 100%;
+    margin-bottom: 0px;
 }
 
 header.carousel .item,
